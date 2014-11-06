@@ -15,6 +15,23 @@
 
 window.findNRooksSolution = function(n) {
   var solution = undefined; //fixme
+  var results =[];
+
+  //setMatrixAxis = 0;
+  // iterate through row
+  //  check if we can put a rook down at i
+  //    put a rook down
+  //    move to the next column
+  //  else
+  //    move down the row
+  //
+  //
+  for(var x = 0; x < n; x ++) {
+    for(var y = 0; y<n; y++ ){
+      if(this.get(x)[y]
+    }
+
+  }
 
   console.log('Single solution for ' + n + ' rooks:', JSON.stringify(solution));
   return solution;
